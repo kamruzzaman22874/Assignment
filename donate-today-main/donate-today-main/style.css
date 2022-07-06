@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section-1{
+    background: url(/donate-today-main/donate-today-main/images/donation4.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 50px; 
+    height: 530px;    
+}
+
+.first-section{
+    padding: 100px;
+    padding-top: 15px;
+    width: 10;
+    box-sizing: border-box;  
+}
+.first-section h1{
+    font-family: 'Anton', sans-serif;
+    color: rgb(233, 116, 49);
+    font-size: 40px;
+    width: 70%;
+    margin-top: 70px;
+    box-sizing: border-box;
+    text-align: center; 
+    padding: 30px 30px 0px 30px ;
+    position: relative;
+    left: 10rem;
+    letter-spacing: 10px;
+
+}
+.first-section p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    color: chocolate;
+    position: relative;
+    left:0;
+    top:-1rem;
+
+
+}
+.button-donate-now{
+    text-decoration: none;
+    background-image: linear-gradient(orange,rgb(207, 88, 67));
+    border-radius: 5px;
+    padding: 15px;
+    background-color: green;
+    position: relative;
+    left: 24rem;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;   
+}
+.donate-today{
+    text-align: center;
+    margin: 100px;
+}
+.donate-today h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace
+}
+.donate-today p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    position: relative;
+    left: 15rem;
+    opacity: 0.7;
+    color: rgba(70, 68, 68, 0.993);
+}
+.donate-amount{
+    width: 50%;
+    padding: 20px;  
+    position: relative;
+    left: 15%;
+    top: -5rem;
+     
+}
+.donate-amount ul{
+    list-style: none;
+    display: flex;
+}
+.donate-amount ul li{
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: gray;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgba(255, 228, 196, 0.233);
+    
+      
+}
+#selected-amount{
+    border: 2px solid rgba(255, 0, 0, 0.678);
+    background-color: rgba(255, 228, 196, 0.979);
+    color: rgba(255, 0, 0, 0.555);
+    
+}
