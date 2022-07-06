@@ -3,11 +3,15 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+.wrapper{
+    margin: 0 150px 0 150px;
+    box-shadow: -1px 2px 18px 9px rgba(33,33,33,0.75);
+}
 .section-1{
     background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), 
     rgba(117, 19, 93, 0.73)), url(./images/donation4.jpg);
     background-repeat: no-repeat;
-    margin: 0;
+    margin: 0 ;
     background-size: cover;
     background-color: #fff;
     opacity: 0.9;
@@ -25,12 +29,13 @@ body{
     font-family: 'Anton', sans-serif;
     color: rgb(255, 254, 253);
     font-size: 40px;
-    width: 80%;
+    width: 100%;
     margin: 50px 30px 0 125px;
     box-sizing: border-box;
     text-align: center; 
-    padding: 30px 30px 30px 100px ;
-    letter-spacing: 10px;
+    padding: 30px 190px 20px 0px ;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px #000000;
 
 }
 .first-section p{
@@ -39,8 +44,9 @@ body{
     padding: 5px;
     text-align: center;
     font-weight: 700;
-    color: rgb(221, 171, 135);
-    margin: 20px 50px 45px 120px;
+    color: #E6FF33;
+    margin: 20px 50px 45px 40px;
+    width: 100%;
 
 
 }
@@ -49,8 +55,8 @@ body{
     background-image: linear-gradient(orange,rgb(207, 88, 67));
     border-radius: 5px;
     padding: 15px;
-    background-color: green;
-    margin: 40px 50px 0px 27rem;
+    background-color: rgb(209, 17, 17);
+    margin: 40px 50px 0px 21rem;
     color: white;
     font-size: 20px;
     font-weight: 700;   
@@ -66,16 +72,16 @@ body{
 .donate-today p{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 60%;
+    width: 80%;
     opacity: 0.7;
     color: rgba(70, 68, 68, 0.993);
     text-align: center;
-    margin: 0 50px 0 230px;
+    margin: 0 50px 0 100px;
 }
 .donate-amount{
     width: 50%;
     padding: 20px;
-    margin: -100px 50px 0px 20rem;      
+    margin: -100px 50px 0px 10rem;      
 }
 .donate-amount ul{
     list-style: none;
@@ -110,14 +116,14 @@ body{
 #other-amount-input{
     text-align: center;
     width: 80%;
-    margin: 10px 50px 20px 25rem;
+    margin: 10px 50px 20px 20rem;
     border: none;
     border-bottom: 2px solid antiquewhite;
 }
 
 .donate-now{
     padding-left: 140px;
-    margin: 20px 0 0 29rem;     
+    margin: 20px 0 0 20rem;     
 }
 .donate-now a{
     text-decoration: none;
@@ -144,8 +150,8 @@ body{
 }
 .our-donation-plan .section-header p{
 
-    width: 50%;
-    margin: 0 0 0 22rem;
+    width: 70%;
+    margin: 0 0 0 10rem;
     font-size: 20px;
     color: gray; 
 }
@@ -193,7 +199,7 @@ body{
 }
 .food-shelter-education-color{
     color: gray;
-    padding: 10px 50px 0px 0px;
+    padding: 2px 50px 0px 0px;
     font-size: 15px;
 }
 .depend-donation{
@@ -206,23 +212,24 @@ body{
   
     width: 400px;
     height: 300px;
-    margin: 2px 3px 3px 200px;
+    margin: 2px 3px 3px 100px;
     border-radius: 6px;
 
 }
 .depend-donation-header{
-    width: 450px;
+    width: 300px;
 }
 .depend-donation-header h1{
-    font-size: 40px;
+    font-size: 30px;
     font-family: sans-serif;
 }
 .depend-donation-header p{
     font-size: 16px;
     color: rgb(146, 148, 150);
     margin-bottom: 30px;
+   
 }
-.depend-donation-header a{
+.contribute-button{
     text-decoration: none;
     background-color: #FF5959;
     padding: 15px;
@@ -234,17 +241,93 @@ body{
 .need-servive{
     display: flex;
     padding: 20px;
-    margin: 0 50px 0 138px;
+    margin: -15px 50px 0 125px;
 }
 .need-servive img{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 .need-servive-heading{
-    width: 300px;
     height: 400px;
-    margin: 10px 0 0 150px;
+    margin: 10px 0 0 80px;
 }
+.need-servive-heading h1{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.need-servive-heading p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgb(146, 148, 150);
+}
+.update-file{
+    text-align: center;
+}
+.update-file h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+.update-file p{
+    width: 65%;
+    margin: 0 0 0 10rem;
+    font-size: 20px;
+    color: gray;
+}
+
+.input-fild{
+    width: 600px;
+    height:147px;
+    background: #FFF4D6;
+    margin: 20px auto 20px auto;
+}
+.input-form form{
+    display:flex;
+    padding:2px;
+}
+
+.input-form form input{
+    width:300px;
+    margin: 3.5rem 0 0 7rem;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    background: #D9D9D9;
+
+}
+
+.input-form form button{
+    background-color: #FF5959;
+    color:white;
+    margin:3.5rem 0 0 -4rem;
+    width: 107px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+.footer{
+    background: black;
+    margin: 93px 0 10px 0;
+    color: white;
+    text-align: center;
+    height: 123px;
+    padding: 10px;
+
+}
+.footer h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(243, 49, 14);
+    font-family: 'Lobster', cursive;
+
+}
+.footer p{
+    font-size: 16px;
+    font-family: 'Lobster', cursive;
+}
+
+
 
 
